@@ -4,8 +4,8 @@ h2{font-weight: 500;letter-spacing: 28px;text-transform: uppercase;}
 
 /* header */
 #header{min-height: 95px;width: 1920px;max-width: 100%;text-align: center;}
-.header_cont ul li {display: inline-block;padding: 20px 25px 0;text-transform: uppercase;font-weight: 700;}
-.header_cont ul {}
+.header_cont ul li {padding: 20px 31px 0;list-style: none;display: table-cell;}
+.header_cont ul {display: table;}
 .main_logo{width: 150px;display: inline-block;margin: 10px 20px;background: #e2d7ec;}
 
 /* banner */
