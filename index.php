@@ -18,18 +18,20 @@
 
     <title></title>
 
-    <link rel="stylesheet" href="style.min.css">
-
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
   </head>
   <body>
 <!-- Header -->
 <div class="header_cont" id="header">
   <div class="wrapper">
-    <ul>
-      <li>Home</li>
-      <li>Profile</li>
-      <li>Contact Info</li>
-    </ul>
+    <nav>
+        <ul>
+            <li>Home nako</li>
+            <li>Profile</li>
+            <li>Contact Info</li>
+          </ul>
+    </nav>
   </div>
 </div>
 <!-- Banner -->
@@ -37,7 +39,7 @@
   <div class="wrapper">
   <div class="bnr_con">
     <div class="banner_txt">
-      <h2>Dexter Ragasajo</h2>
+      <h2>Dexter </h2><h2>Ragasajo</h2>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         <span>Aenean commodo ligula eget dolor.</span></p>
       </div>
@@ -70,7 +72,7 @@
     <div class="footer_cont" id="footer">
       <div class="wrapper">
       <div class="copyright">
-            &copy; Copyright
+            &copy; Copyright 2019
               <?php
               $start_year = '2019';
               $current_year = date('Y');
@@ -84,5 +86,6 @@
     </div>
 
     <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/plugins.min.js"></script>
   </body>
 </html>
