@@ -63,6 +63,6 @@ $(document).ready(function(){
         
         
         // USAGE
-        $( '.banner_txt h2' ).letterDrop();
+        $( '.bnr_con h2' ).letterDrop();
 // END        
 });
