@@ -28,14 +28,14 @@ function myFunction() {
   var width8 = 10;
   var width9 = 10;
   var id = setInterval(frame, 50);
-  var id2 = setInterval(frame2, 50);
-  var id3 = setInterval(frame3, 50);
-  var id4 = setInterval(frame4, 50);
-  var id5 = setInterval(frame5, 50);
-  var id6 = setInterval(frame6, 50);
-  var id7 = setInterval(frame7, 50);
-  var id8 = setInterval(frame8, 50);
-  var id9 = setInterval(frame9, 50);
+  var id2 = setInterval(frame2, 60);
+  var id3 = setInterval(frame3, 70);
+  var id4 = setInterval(frame4, 80);
+  var id5 = setInterval(frame5, 90);
+  var id6 = setInterval(frame6, 100);
+  var id7 = setInterval(frame7, 110);
+  var id8 = setInterval(frame8, 120);
+  var id9 = setInterval(frame9, 130);
   
   function frame() {
     if (width >= 95) {
