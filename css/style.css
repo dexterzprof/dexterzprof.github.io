@@ -1,13 +1,14 @@
 body{font-family: futura-pt, sans-serif;}
-.wrapper {width: 1080px;max-width: 100%;position: relative;margin: 0 auto;}
+.wrapper {width: 1500px;max-width: 100%;position: relative;margin: 0 auto;}
 h2{font-weight: 500;letter-spacing: 28px;text-transform: uppercase;}
 
 /* header */
 #header{min-height: 95px;width: 1920px;max-width: 100%;text-align: center;}
 .header_cont ul li {padding: 20px 0 0;list-style: none;display: table-cell;}
 .header_cont ul {display: table; padding: 0; width: 100%;}
-.main_logo{width: 150px;display: inline-block;margin: 10px 20px;background: #e2d7ec;}
-
+.main_logo{width: 100px;max-width: 100%;position: absolute;left: 20px;top: 20px;}
+.main_logo img{width: 100%;}
+nav{width: 1212px;float: right;max-width: 100%;}
 /* banner */
 .bnr_con h2{display: inline-block;}
 .banner_txt p span {  display: block;}
@@ -18,8 +19,10 @@ h2{font-weight: 500;letter-spacing: 28px;text-transform: uppercase;}
 
 
 /* Bottom1 */
+
 #bottom1 .skills ul li { list-style: none;line-height: 2;}
-#skillsbar {width: 100%;}
+#bottom1 .skills{width: 850px;max-width: 100%;overflow: hidden;}
+#skillsbar {width: 100%;padding: 0;}
 #Bar1, #Bar2 {width: 0%;height: 30px;max-width:100%;background: repeating-linear-gradient(-55deg,#222,#222 10px,#333 10px,#333 20px);text-align: center;line-height: 30px;color: white;}
 #Bar1, #Bar2, #Bar3, #Bar4, #Bar5, #Bar6, #Bar7, #Bar8, #Bar9 {width: 20%;height: 30px;max-width:100%;background: repeating-linear-gradient(  -55deg,  #222,  #222 10px,  #333 10px,  #333 20px);text-align: left;padding-left:10px;line-height: 30px;color: white;}
 #skillsbar  li{position:relative; text-align:left;list-style:none; margin:10px; line-height: 2;}
