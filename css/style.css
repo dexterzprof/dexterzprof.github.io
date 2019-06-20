@@ -31,6 +31,9 @@ h2{font-weight: 500;letter-spacing: 28px;text-transform: uppercase;}
 #skillsbar  li{position:relative; text-align:left;list-style:none; margin:10px; line-height: 2;}
 #skillsbar li span{position:absolute; right:20px;}
 
+/* Bottom2 */
+.bottom2_cont{padding: 20px 0;}
+
 /* Footer */
 .copyright{text-align: center;}
 
