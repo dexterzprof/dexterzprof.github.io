@@ -8,10 +8,10 @@ h2{font-weight: 500;letter-spacing: 28px;text-transform: uppercase;}
 .header_cont ul li a{padding: 20px 40px;color: #000;text-transform: uppercase;text-decoration: none;letter-spacing: 3px;font-weight: 600;}
 .header_cont ul li a:hover, .header_cont ul li a:active, .header_cont ul li.current_page_item a, .header_cont ul li a:hover::before, .header_cont ul li.current_page_item a::before {box-shadow: 0px 4px 5px -5px #333;}
 .header_cont ul {display: table; padding: 0; width: 100%;}
-.main_logo{width: 100px;max-width: 100%;position: absolute;left: 20px;top: 20px;}
+.main_logo{width: 100px;max-width: 100%;display: inline-block;}
 .main_logo img{width: 100%;}
 /* Nav */
-nav{width: 1212px;float: right;max-width: 100%;margin-top: 24px;}
+nav{width: 1212px;display:inline-block;max-width: 100%;margin-top: 24px;}
 /* banner */
 .bnr_con h2{display: inline-block;}
 .banner_txt p span {  display: block;}

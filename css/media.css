@@ -7,6 +7,9 @@
 @media only screen
 and (max-width:600px){
     body{margin: 0;}
+    /* Header */
+    .header_cont ul li a{padding: 20px 0px;}
+
 
     /* Nav */
     .main_logo{position: static;margin: 20px auto;}
